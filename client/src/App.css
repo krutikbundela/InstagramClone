@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color: black !important;
+}
+
+.brand-logo{
+  font-family: 'Grand Hotel', cursive;
+  margin-left: 20px;
+}
+
+.mycard{
+  margin-top: 30px;
+}
+
+
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.btn{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.logout-btn{
+  margin: 0px 10px 6px 10px;
+}
+
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #64b5f6 !important;
+  box-shadow: 0 1px 0 0 #64b5f6 !important;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #64b5f6 !important;
+  box-shadow: 0 1px 0 0 #64b5f6 !important;
+}
+
+/* Profile */
+
+.profile-page{
+  max-width: "550px";
+  margin: 0px auto;
+}
+
+.profile{
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;  */
+
+  /* margin: 40px 0px; */
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 18px 0px;
+  border-bottom: 1px solid grey;
+}
+
+.propic-update{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn2 {
+  border: 2px solid blue;
+  color: white;
+  background-color: blue;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+
+
+.post-dp{
+  width: 50px;
+  object-fit: cover;
+  height: 50px;
+  border-radius: 25px;
+  /* margin: 0px 0px; */
+  margin-top: 7px;
+
+}
+
+/* .post-dp-text{
+  margin: 50px 20px;
+} */
+
+.poster-name{
+  /* margin: 20px; */
+
+  margin-left: 10px;
+  font-size: 40px;
+  margin: 10px;
+  display:flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.delete-icon{
+  cursor: pointer;
+  float: right;
+  margin-left:auto;
+  font-size: 2.5rem; 
+  margin-top: 10px; 
+}
+
+
+
+
+
+.user-post-dp{
+  width: 200px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 100px;
+  /* margin: 0px 0px; */
+  margin-top: 7px;
+}
+
+
+
+.user-poster-name{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delete-user{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.delete-user-btn{
+  margin-top: 20px;
+}
+
+.username{
+  margin-top: 20px;
+}
+.email{
+  margin-top: 20px;
+}
+
+.user-comment{
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-comment-icon{
+  float: right;
+  cursor: pointer;
+}
+
+
+
+
+
+.pro-pic{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  max-width: 50%;
+  max-height: 100%;
+  border-radius: 50%;
+  margin: 10px 10px 30px; */
+  width: 160px;
+  object-fit: cover;
+  height: 160px;
+  border-radius: 80px;
+  margin: 20px 0px;
+}
+
+.pro-data{
+  margin: 20px 0px;
+}
+
+.follow-count{
+  display: flex;
+  justify-content: space-between;
+  width: 109%;
+  margin-right: 60px;
+}
+
+.count-follower{
+  color: black;
+  font-weight: 600;
+}
+
+.gallary{
+  /* margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.item{
+  /* margin: 10px 10px;
+  max-width: 30%; */
+  width: 30%;
+  margin: 20px 20px;
+  object-fit: cover;
+}
+
+
+
+
+
+/* Home Page */
+
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+
+
+.like-dislike{
+  cursor: pointer;
+}
+
+.comment-name{
+  font-weight: 600;
+}
+
+
+
+
+
+/* Create Post */
+.create-post{
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* sign up */
+
+#toast-container{
+  top: 80px !important;
+  right: 310px !important;
+  left: auto !important;
+  /* background-color: red !important; */
+  
+}
+
+.have-acc{
+  font-size: large;
+}
+
+.have-acc:hover{
+ color:blue;
+ 
+}
+/* 
+.modal {
+ 
+  left: 0;
+ 
+  right: 0;
+ 
+  background-color: #e1f5fe;
+ 
+  padding: 0;
+ 
+  max-height: 40%;
+ 
+  width: 35%;
+ 
+  will-change: top, opacity;
+ 
+}
+ 
+ 
+ 
+.modal .modal-footer {
+ 
+  border-radius: 0 0 2px 2px;
+ 
+  background-color: #01579b;
+ 
+  padding: 4px 6px;
+ 
+  height: 60px;
+ 
+  width: 100%;
+ 
+  text-align: right;
+ 
+} */
+/* 
+.collection-item{
+  width: 100%;
+} */
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
